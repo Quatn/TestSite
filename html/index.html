@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/testStyle.css">    
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>My Website</title>
+	</head>
+	<body>
+		<main>
+			<h1>Welcome to Mung bean pastry's (Bánh đậu xanh) page</h1>  
+			<h2>A FPT Univerity SSG104 group project</h2>
+			<img src="images/bdx.jpeg" alt="Group Logo" width="460" height="345">
+			<img src="/pyro.png" alt="pyrp" width="460" height="345">
+			<p>We're still working on it =)</p>
+			<p id="thing">Hosted on GitHub Pages</p>
+			<!--This create a link <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button">Link Button</a>-->
+			<button id="ric" type="button" class="btn btn-primary">More info</button>
+			<script type="text/javascript">
+				var button = document.getElementById("ric");
+				button.addEventListener("click", Jump);
+				function Jump(){
+					location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";				
+				}
+			</script>
+		</main>
+	</body>
+</html>
