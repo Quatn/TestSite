@@ -1,5 +1,5 @@
 body {
-  background-color: #069167;
+	background-image: linear-gradient(#6d84a8, #8495b0 , #929cad);
 }
 
 h1 {
@@ -10,10 +10,10 @@ h1 {
 
 h2 {
 	color: white;
-	text-align: center;
+	text-align: left;
 }
 
-img {
+video {
 	border: 1px solid #ddd;
 	border-radius: 4px;
 	padding: 5px;
